@@ -1,0 +1,15 @@
+{
+  "name": "site-drawings-calculator",
+  "version": "1.0.0",
+  "description": "Site-Specific Drawings Price Calculator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
