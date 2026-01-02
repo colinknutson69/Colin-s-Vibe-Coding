@@ -1,4 +1,4 @@
-# Site-Specific Drawings Calculator
+# Metal America - Site-Specific Drawings Calculator
 
 A simple calculator tool for sales reps to calculate the site-specific engineered drawings price (10% of building subtotal).
 
@@ -25,7 +25,7 @@ To test locally, simply open `index.html` in your web browser.
 
 3. Navigate to your project folder:
    ```bash
-   cd site-drawings-calculator
+   cd metal-calculator
    ```
 
 4. Initialize and deploy:
@@ -52,7 +52,7 @@ To test locally, simply open `index.html` in your web browser.
 1. Go to [railway.app](https://railway.app) and log in
 2. Click "New Project"
 3. Click "Deploy from local"
-4. Select the `site-drawings-calculator` folder
+4. Select the `metal-calculator` folder
 5. Railway will deploy automatically
 6. Click "Generate Domain" under Settings to get your public URL
 
@@ -60,7 +60,8 @@ That's it! Your calculator will be live at the provided Railway URL.
 
 ## How to Use the Calculator
 1. Enter the building subtotal (pre-tax price)
-2. Enter the state and zip code
-3. Click "Calculate Drawings Price"
-4. The tool will show 10% of the subtotal as the site-specific drawings price
-5. Add this price as a custom expense in Idearoom or Sensei
+2. Select the state from the dropdown
+3. Enter a 5-digit zip code
+4. Click "Calculate Drawings Price"
+5. The tool will show 10% of the subtotal as the site-specific drawings price
+6. Add this price as a custom expense in Idearoom or Sensei
